@@ -9,6 +9,7 @@ Performance
 
 The accuracy is calculated by Quadratic Weighted Kappa(QWK), which measures the agreement between two raters. The model architecture consists of 2 Long Short Term Memory(LSTM) layers with a Dense output layer. The final layer uses the Relu activation function. The QWK is calculated by training model on the dataset using 5-Fold Cross Validation and taking the average for all five folds.
 
+![Uploading image.png…]()
 
 
 
